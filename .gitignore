@@ -10,3 +10,4 @@ target/
 *.ipr
 /logs
 /yt4j-modules/yt4j-sys/logs
+git-flow-plus.config

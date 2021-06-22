@@ -84,13 +84,5 @@ public class SysUser extends Model<SysUser> {
 	@TableField(exist = false)
 	private List<Long> roleIds;
 
-	/**
-	 * 获取主键值
-	 * @return 主键值
-	 */
-	@Override
-	protected Serializable pkVal() {
-		return this.id;
-	}
 
 }

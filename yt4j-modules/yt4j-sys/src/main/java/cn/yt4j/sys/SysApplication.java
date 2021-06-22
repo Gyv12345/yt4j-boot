@@ -17,7 +17,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 /**
  * @author gyv12345@163.com
  */
-@EnableDiscoveryClient
 @EnableCaching
 @EnableYt4jSecurity
 @SpringBootApplication

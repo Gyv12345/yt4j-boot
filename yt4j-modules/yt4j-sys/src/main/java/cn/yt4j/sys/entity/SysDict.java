@@ -77,13 +77,5 @@ public class SysDict extends Model<SysDict> {
 	@TableField(exist = false)
 	private List<SysDictItem> items;
 
-	/**
-	 * 获取主键值
-	 * @return 主键值
-	 */
-	@Override
-	protected Serializable pkVal() {
-		return this.id;
-	}
 
 }

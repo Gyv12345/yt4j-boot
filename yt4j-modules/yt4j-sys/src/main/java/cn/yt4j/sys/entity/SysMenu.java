@@ -81,13 +81,5 @@ public class SysMenu extends Model<SysMenu> {
 	@ApiModelProperty(value = "修改时间")
 	private LocalDateTime updateTime;
 
-	/**
-	 * 获取主键值
-	 * @return 主键值
-	 */
-	@Override
-	protected Serializable pkVal() {
-		return this.id;
-	}
 
 }

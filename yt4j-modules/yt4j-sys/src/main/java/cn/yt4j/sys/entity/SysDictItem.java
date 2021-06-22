@@ -51,13 +51,5 @@ public class SysDictItem extends Model<SysDictItem> {
 	@ApiModelProperty(value = "修改时间", example = "1")
 	private LocalDateTime updateTime;
 
-	/**
-	 * 获取主键值
-	 * @return 主键值
-	 */
-	@Override
-	protected Serializable pkVal() {
-		return this.id;
-	}
 
 }
